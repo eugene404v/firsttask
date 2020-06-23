@@ -18,7 +18,7 @@ const testData = {
   ]
 };
 
-function statement(invoice, plays) {
+function statement(invoice) {
   let totalAmount = 0;
   let volumeCredits = 0;
   let result = `Счет для ${invoice.customer}\n`;
